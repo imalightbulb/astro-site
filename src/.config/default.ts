@@ -5,16 +5,16 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    title: 'Physics Box',
+    subtitle: 'Average Physics Student',
+    author: 'Heah Hung Xun',
+    description: 'A blog about physics, mathematics, and other stuff.',
+    website: 'https://imalightbulb123.netlify.app/',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/imalightbulb',
       },
       {
         name: 'rss',
@@ -22,11 +22,7 @@ export const defaultConfig: ThemeConfig = {
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://x.com/im_alightbulb',
       },
     ],
     navLinks: [
@@ -56,7 +52,7 @@ export const defaultConfig: ThemeConfig = {
   },
   appearance: {
     theme: 'light',
-    locale: 'zh-cn',
+    locale: 'en-us',
     colorsLight: {
       primary: '#2e405b',
       background: '#ffffff',
@@ -67,7 +63,7 @@ export const defaultConfig: ThemeConfig = {
     },
     fonts: {
       header:
-        '"HiraMinProN-W6","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif',
+        '"Atkinson Hyperlegible","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif',
       ui: '"Source Sans Pro","Roboto","Helvetica","Helvetica Neue","Source Han Sans SC","Source Han Sans TC","PingFang SC","PingFang HK","PingFang TC",sans-serif',
     },
   },
