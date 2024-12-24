@@ -21,6 +21,10 @@ $$
 \int_{a}^{b} f(x) \, dx = F(b) - F(a)
 $$
 
+$$
+\frac{E}{m}
+$$
+
 This formula represents the fundamental theorem of calculus.
 
 ## Complex Formula
