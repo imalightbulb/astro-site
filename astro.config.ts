@@ -19,7 +19,7 @@ export default defineConfig({
       remarkMath,
     ],
     rehypePlugins: [
-      rehypeMathJax,
+      rehypeKatex,
     ],
     shikiConfig: {
       theme: 'dracula',
