@@ -21,8 +21,8 @@ html {
   --at-apply: 'hover:(c-background bg-primary decoration-primary)';
 }
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('public/fonts/AtkinsonHyperlegible-Regular.ttf') format('ttf');
+  font-family: 'Atkinson_Hyperlegible';
+  src: url('/public/fonts/AtkinsonHyperlegible-Regular.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
