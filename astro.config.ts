@@ -5,6 +5,7 @@ import robotsTxt from 'astro-robots-txt'
 import { defineConfig } from 'astro/config'
 import rehypeKatex from 'rehype-katex'
 import remarkMath from 'remark-math'
+import rehypeMathJax from 'rehype-mathjax';
 import UnoCSS from 'unocss/astro'
 import { themeConfig } from './src/.config'
 
@@ -18,7 +19,7 @@ export default defineConfig({
       remarkMath,
     ],
     rehypePlugins: [
-      rehypeKatex,
+      rehypeMathJax,
     ],
     shikiConfig: {
       theme: 'dracula',
