@@ -63,7 +63,7 @@ export const defaultConfig: ThemeConfig = {
     },
     fonts: {
       header:
-        '"Atkinson_Hyperlegible","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif',
+        '"Helvetica","Atkinson_Hyperlegible","Source Han Serif CN","Source Han Serif SC","Source Han Serif TC",serif',
       ui: '"Source Sans Pro","Roboto","Helvetica","Helvetica Neue","Source Han Sans SC","Source Han Sans TC","PingFang SC","PingFang HK","PingFang TC",sans-serif',
     },
   },
